@@ -25,12 +25,12 @@ const Navigation = ({ onToggleDarkMode, isDarkMode }) => {
             <Link to="/about" className="hover:text-blue-400 transition">
               About
             </Link>
-            {/* <button
+            <button
               onClick={onToggleDarkMode}
               className="bg-gray-700 hover:bg-gray-600 px-3 py-1 rounded-lg transition"
             >
               {isDarkMode ? "☀️" : "🌙"}
-            </button> */}
+            </button>
           </div>
 
           <button
